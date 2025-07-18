@@ -25,7 +25,7 @@ export function DialogReportProfile() {
                     Продать игровую валюту
                 </Button>
             </DialogTrigger>
-            <DialogContent className="sm:max-w-md">
+            <DialogContent className="sm:max-w-md gap-6">
                 <DialogHeader>
                     <DialogTitle className="text-xl font-semibold">
                         Жалоба на 0xHearts.com
@@ -34,7 +34,7 @@ export function DialogReportProfile() {
                 <div className="flex flex-col gap-4 w-full">
                     <div className="flex flex-col gap-1 w-full">
                         <Label htmlFor="SelectValue">
-                            <p className="text-[var(--p-text-gray)] text-sm">Email</p>
+                            <p className="text-[var(--p-text-gray)] text-sm">Причина жалобы</p>
                         </Label>
                         <Select>
                             <SelectTrigger className="w-full">
@@ -75,7 +75,7 @@ export function DialogReportProfile() {
                         <Input type="file" id="fileInp" style={{ display: "none" }}/>
                     </div>
                 </div>
-                <DialogFooter className="sm:justify-start">
+                <DialogFooter className="sm:justify-start mt-[-4px]">
                         <div className="flex gap-2 w-full">
                             <Button type="button" variant="white" className="w-1/2">
                                 Мне нужна поддержка
