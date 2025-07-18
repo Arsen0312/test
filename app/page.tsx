@@ -301,11 +301,11 @@ const Home = () => {
                             </SelectGroup>
                         </SelectContent>
                     </Select>
-                    <div className="flex items-center gap-1 border border-gray-200 rounded-md px-3">
-                        <span>Только продавцы онлайн</span>
+                    <div className="flex items-center gap-2 border border-[var(--border)] rounded-md px-3">
+                        <span className="text-sm font-normal">Только продавцы онлайн</span>
                         <Switch/>
                     </div>
-                    <Button className="w-[209px]">
+                    <Button className="w-[209px] ml-auto">
                         Продать игровую валюту
                     </Button>
                 </div>
