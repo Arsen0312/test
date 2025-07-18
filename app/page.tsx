@@ -258,7 +258,7 @@ const Home = () => {
         <main className="conteinerPage relative">
             <section className="max-w-[808] w-full">
                 <Image className="absolute right-0 top-0 pointer-events-none" src={mainImage4Page} alt="mainImage"
-                       width={450} height={450}/>
+                       width={386} height={428}/>
                 <SegmentControls options={optionsForSegmentControls} value={value} onChange={setValue}/>
                 <h1 className="mt-2 text-2xl font-semibold">
                     Робуксы Roblox
