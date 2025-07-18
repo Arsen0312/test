@@ -63,8 +63,8 @@ export function DialogReportProfile() {
                         <Label htmlFor="fileInp">
                             <p className="text-[var(--p-text-gray)] text-sm">Доказательства</p>
                         </Label>
-                        <Label htmlFor="fileInp" className="flex flex-col ">
-                            <div className="border border-dashed w-full h-[116px] rounded-[8px] flex flex-col items-center justify-center gap-3">
+                        <Label htmlFor="fileInp" className="flex flex-col">
+                            <div style={{ borderColor: "rgba(158, 157, 164, 1)" }} className="border-1 border-dashed w-full h-[116px] rounded-[8px] flex flex-col items-center justify-center gap-3">
                                 <Image src={inputFile} alt="inputFile" width={24} height={24}/>
                                 <div className="flex-col flex gap-2 items-center">
                                     <h3>Выберите файл или перетащите его сюда</h3>
