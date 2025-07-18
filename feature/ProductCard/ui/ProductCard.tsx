@@ -2,8 +2,9 @@ import {TOptionMainDataPage} from "@/app/page";
 import React from "react";
 import Image from "next/image";
 import {getColorPack} from "@/feature/ProductCard/utils/getColorPack";
-import starRatingIcon from "@/public/assets/starRatingIcon.svg"
 import StarRatingIcon from "@/feature/ProductCard/ui/starRatingIcon";
+import cls from "./ProductCard.module.css"
+import {cn} from "@/lib/utils";
 
 type TProps = TOptionMainDataPage
 
@@ -13,7 +14,7 @@ const ProductCard = (props: TProps) => {
      const colorPack = getColorPack(seller.rating)
 
     return (
-        <div className="flex gap-6">
+        <div className={cn(cls.ProductCard, "flex gap-6 px-2 py-1 rounded-[8px] transition-all")}>
             <span className="max-w-[104px] w-full">{server}</span>
             <span className="max-w-[168px] w-full">{side}</span>
             <span className="max-w-[232px] w-full h-[43px] flex gap-2">

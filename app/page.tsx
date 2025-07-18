@@ -260,10 +260,10 @@ const Home = () => {
                 <Image className="absolute right-0 top-0 pointer-events-none" src={mainImage4Page} alt="mainImage"
                        width={450} height={450}/>
                 <SegmentControls options={optionsForSegmentControls} value={value} onChange={setValue}/>
-                <h1 className="mt-2 text-2xl">
+                <h1 className="mt-2 text-2xl font-semibold">
                     Робуксы Roblox
                 </h1>
-                <p className="mt-1">
+                <p className="mt-1 text-[var(--p-text-gray)] leading-6 max-w-[680px] w-full font-sans font-normal text-base tracking-normal">
                     Какой-то длинный текст, связанный с SEO-оптимизацией относительно данной категории, на которую вы
                     сейчас смотрите. Какой-то длинный текст, связанный с SEO-оптимизацией относительно данной категории,
                     на которую вы сейчас смотрите.
@@ -327,7 +327,7 @@ const Home = () => {
                     Показать больше
                 </Button>
             </section>
-            <section className="mt-10">
+            <section className="mt-10 text-[var(--p-text-gray)] text-sm">
                 <hr/>
                 <div className="flex flex-col gap-6">
                     <div>
@@ -356,7 +356,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div>
-                        <h3>Как купить</h3>
+                        <h3 className="font-medium text-base">Как купить</h3>
                         <p>
                             Покупка робуксов осуществляется просто, как мы писали выше, нужно сделать всего три действия:
                         </p>
@@ -372,7 +372,7 @@ const Home = () => {
                         </p>
                     </div>
                     <div>
-                        <h3>Продавцам</h3>
+                        <h3 className="font-medium text-base">Продавцам</h3>
                         <p>
                             Если вы опытный продавец или начинаете свой путь с нуля — неважно, у вас есть замечательная возможность
                             продать робуксы через FunPay. Чтобы стать продавцом нашей биржи, следуйте следующим принципам:
