@@ -26,7 +26,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="h-full">
-      <body
+    <head>
+        <meta name="viewport" content="width=1024"/>
+
+    </head>
+    <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased h-full`}
         style={{ background: "#202020" }}
       >
