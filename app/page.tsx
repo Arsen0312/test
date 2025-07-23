@@ -23,7 +23,7 @@ const Page = () => {
                     <div className="pl-4 pr-4 pt-2">
                         <div className="flex justify-between items-center">
                             <h2 className="text-2xl font-bold">IBRUSH</h2>
-                            <h2 className="text-1xl">Апрель 2024 – Март 2025</h2>
+                            <h2 className="text-2xl">Апрель 2024 – Март 2025</h2>
                         </div>
                         <h3 className="italic text-xl font-medium">Frontend-разработчик</h3>
                     </div>
@@ -108,7 +108,7 @@ const Page = () => {
                     <div className="pl-4 pr-4 pt-2">
                         <div className="flex justify-between items-center">
                             <h2 className="text-2xl font-bold">Friflex</h2>
-                            <h2 className="text-1xl">Декабрь 2023 – Март 2024</h2>
+                            <h2 className="text-2xl">Декабрь 2023 – Март 2024</h2>
                         </div>
                         <h3 className="italic text-xl font-medium">Frontend-разработчик</h3>
                     </div>
@@ -137,17 +137,16 @@ const Page = () => {
                 <section className="mt-12 pb-40">
                     <h2 className="text-3xl">Technical Skills</h2>
                     <hr className="w-full" style={{backgroundColor: "black", borderColor: "black"}}/>
-                    <div className="pl-8 pr-8">
-                        <div className="flex">
-                            <h2 className="font-semibold">Programming languages: </h2> TypeScript, JavaScript,
+                    <div className="pl-8 pr-8 pt-1 text-xl font-medium">
+                        <div className="">
+                            <span className="font-semibold ">Programming languages:&nbsp;</span> TypeScript, JavaScript,
                         </div>
-                        <div className="flex">
-                            <h2 className="font-semibold">Frontend: </h2> React, Next.js, Vue3, HTML5, CSS3, SCSS, styled components, swiper, i18n,
-                            redux, redux-toolkit, pinia,
-                            react-hook-form, Web socket, REST API, eslint, vue-draggable-plus
+                        <div className="">
+                            <span className="font-semibold ">Frontend:&nbsp;</span> React, Next.js, Vue3, HTML5, CSS3, SCSS, styled components, swiper, i18n,
+                            redux, redux-toolkit, pinia, react-hook-form, Web socket, REST API, eslint, vue-draggable-plus
                         </div>
-                        <div className="flex">
-                            <h2 className="font-semibold">languages: </h2> Kyrgyz(Native), Russian (Native)
+                        <div className="">
+                            <span className="font-semibold ">languages:&nbsp;</span> Kyrgyz(Native), Russian (Native)
                         </div>
                     </div>
                 </section>
