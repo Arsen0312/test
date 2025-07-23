@@ -1,7 +1,6 @@
 const Page = () => {
     return (
-        <main className="w-full max-w-[1128px] mx-auto" style={{backgroundColor: "white"}}>
-            <div className="font-sans w-[90%] mx-auto ">
+        <main className="w-full mx-auto">
                 <section className="flex flex-col items-center justify-center pt-12 mb-10">
                     <h1 className="text-5xl font-bold">
                         Myrzabekov Arsen
@@ -150,7 +149,6 @@ const Page = () => {
                         </div>
                     </div>
                 </section>
-            </div>
         </main>
     );
 };
